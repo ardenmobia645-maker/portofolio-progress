@@ -1,42 +1,41 @@
 body {
   margin: 0;
   background-color: #1b1b1b;
-
 }
 
 header {
-  background-color: #1b1b1b;
-  border-radius: 20px;
-  padding: 20px 0;
-  height: 120vh;
-  width: 350px;
+
+  padding: 15px;
+  height: 95%;
+  width: 300px;
   position: fixed;
 
 }
 nav {
-  margin: 0;
+  margin: 20px;
+  color: rgba(236, 236, 236, 0.59);
   margin-top: 2rem;
+  font-size: 16px;
+  border: 2px solid color-mix(in srgb, #ffffff, transparent 80%);
+  height: 90%;
+  border-radius: 25px;
 }
 header nav {
-  border: #444444 solid;
-  width: 250px;
-  height: 90vh;
-  justify-content: center;
-  margin-top: 10px;
-  padding-left: 10px 0;
-  border-radius: 35px;
-  padding-right: 10px;
   margin-left: 20px;
+  border: 5px solide;
+  color: rgba(236, 236, 236, 0.59);
+  justify-content: space-around;
+}
+nav ul li {
+  color: rgba(236, 236, 236, 0.59);
 }
 
 nav ul li {
   font-size: 20px;
-  color: white;
-  font-family: "Raleway" sans serif;
-  align-content: space-around;
-  margin-bottom: 2rem;
+  color: rgba(236, 236, 236, 0.59);
+  font-family: "Nunito" sans serif;
+  margin-bottom: 1.5rem;
   list-style: none;
-  justify-content: space-around;
   padding: 0;
 }
 nav ul i {
@@ -44,38 +43,35 @@ nav ul i {
   justify-items: left;
   align-content: center;
   
+
 }
 nav ul li a {
   text-decoration: none;
-  color: white;
-  font-size: 16px;
-  margin-left: 10px;
+  color: rgba(236, 236, 236, 0.59);
+    font-size: 20px;
+    margin-right: 20px;
 }
 
 nav ul li span {
-  border-radius: 55%;
-  background-color: #444444;
-  margin: 23px;
-  font-size: 30px;
-}
-nav ul li span:hover{
-  color: #ffffff;
-}
-nav ul li span:focus{
-  color: #ffffff;
-}
- .big-container div{
-  color: #ffffff;
-  display: inline-flex;
-   width: 40px;
-  height: 35px;
-  background-color: color-mix(in srgb, #ffffff, transparent 90%);
   border-radius: 50%;
-  text-align: center;
-  margin: 2px;
+  background-color: #444444;
+  margin: 25px;
+  font-size: 16px;
 }
-.big-container div i{
-  font-size: 20px;
-  padding: 8px;
-  margin-top: 0;
+nav ul li a:hover,
+nav ul li a:focus {
+  color: #ffffff;
+}
+
+.big-container {
+  display: flex;
+  justify-content:space-around;
+  font-size: 16px;
+}
+.big-container div i {
+  background-color: color-mix(in srgb, #ffffff, transparent 90%);
+  border-radius: 12px;
+  padding: 10px;
+  position: relative;
+  top: 20px;
 }
