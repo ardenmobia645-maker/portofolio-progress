@@ -63,6 +63,10 @@ nav ul li a:hover,
 nav ul li a:focus {
   color: #ffffff;
 }
+.big-container i:hover,
+.big-container i:focus{
+  color: #ffffff;
+}
 
 .big-container {
   display: flex;
@@ -71,8 +75,9 @@ nav ul li a:focus {
 }
 .big-container div i {
   background-color: color-mix(in srgb, #ffffff, transparent 90%);
-  border-radius: 12px;
+  border-radius: 50%;
   padding: 10px;
   position: relative;
   top: 20px;
+  font-size: 20px;
 }
