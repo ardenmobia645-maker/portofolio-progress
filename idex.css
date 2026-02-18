@@ -18,7 +18,8 @@ nav {
   font-size: 16px;
   border: 2px solid color-mix(in srgb, #ffffff, transparent 80%);
   height: 90%;
-  border-radius: 25px;
+  border-radius: 20px;
+  font-family: "Nunito", sans-serif;
 }
 header nav {
   margin-left: 20px;
@@ -31,7 +32,7 @@ nav ul li {
 }
 
 nav ul li {
-  font-size: 20px;
+  font-size: 16px;
   color: rgba(236, 236, 236, 0.59);
   font-family: "Nunito" sans serif;
   margin-bottom: 1.5rem;
@@ -55,7 +56,7 @@ nav ul li a {
 nav ul li span {
   border-radius: 50%;
   background-color: #444444;
-  margin: 25px;
+  margin: 20px;
   font-size: 16px;
 }
 nav ul li a:hover,
@@ -74,8 +75,4 @@ nav ul li a:focus {
   padding: 10px;
   position: relative;
   top: 20px;
-}
-h1{
-    color: black;
-    font-size: 20px;
 }
