@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  background-color: #1b1b1b;
+
+}
+
+header {
+  background-color: #1b1b1b;
+  border-radius: 20px;
+  padding: 20px 0;
+  height: 120vh;
+  width: 350px;
+  position: fixed;
+
+}
+nav {
+  margin: 0;
+  margin-top: 2rem;
+}
+header nav {
+  border: #444444 solid;
+  width: 250px;
+  height: 90vh;
+  justify-content: center;
+  margin-top: 10px;
+  padding-left: 10px 0;
+  border-radius: 35px;
+  padding-right: 10px;
+  margin-left: 20px;
+}
+
+nav ul li {
+  font-size: 20px;
+  color: white;
+  font-family: "Raleway" sans serif;
+  align-content: space-around;
+  margin-bottom: 2rem;
+  list-style: none;
+  justify-content: space-around;
+  padding: 0;
+}
+nav ul i {
+  line-height: 2.1rem;
+  justify-items: left;
+  align-content: center;
+  
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+nav ul li span {
+  border-radius: 55%;
+  background-color: #444444;
+  margin: 23px;
+  font-size: 30px;
+}
+nav ul li span:hover{
+  color: #ffffff;
+}
+nav ul li span:focus{
+  color: #ffffff;
+}
+ .big-container div{
+  color: #ffffff;
+  display: inline-flex;
+   width: 40px;
+  height: 35px;
+  background-color: color-mix(in srgb, #ffffff, transparent 90%);
+  border-radius: 50%;
+  text-align: center;
+  margin: 2px;
+}
+.big-container div i{
+  font-size: 20px;
+  padding: 8px;
+  margin-top: 0;
+}
