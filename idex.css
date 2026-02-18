@@ -39,18 +39,19 @@ nav ul li {
   list-style: none;
   padding: 0;
 }
-nav ul i {
-  line-height: 2.1rem;
-  justify-items: left;
-  align-content: center;
-  
+nav ul li i {
+  line-height: 2rem;
 
 }
+
+
+
 nav ul li a {
   text-decoration: none;
   color: rgba(236, 236, 236, 0.59);
-    font-size: 20px;
-    margin-right: 20px;
+    font-size: 16px;
+    margin-right: 10px;
+
 }
 
 nav ul li span {
@@ -79,5 +80,5 @@ nav ul li a:focus {
   padding: 10px;
   position: relative;
   top: 20px;
-  font-size: 20px;
+  font-size: 16px;
 }
