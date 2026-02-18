@@ -1,4 +1,84 @@
-h1{
-    color: black;
-    font-size: 20px;
+body {
+  margin: 0;
+  background-color: #1b1b1b;
+}
+
+header {
+
+  padding: 15px;
+  height: 95%;
+  width: 300px;
+  position: fixed;
+
+}
+nav {
+  margin: 20px;
+  color: rgba(236, 236, 236, 0.59);
+  margin-top: 2rem;
+  font-size: 16px;
+  border: 2px solid color-mix(in srgb, #ffffff, transparent 80%);
+  height: 90%;
+  border-radius: 20px;
+  font-family: "Nunito", sans-serif;
+}
+header nav {
+  margin-left: 20px;
+  border: 5px solide;
+  color: rgba(236, 236, 236, 0.59);
+  justify-content: space-around;
+}
+nav ul li {
+  color: rgba(236, 236, 236, 0.59);
+}
+
+nav ul li {
+  font-size: 16px;
+  color: rgba(236, 236, 236, 0.59);
+  font-family: "Nunito" sans serif;
+  margin-bottom: 1.5rem;
+  list-style: none;
+  padding: 0;
+}
+nav ul li i {
+  line-height: 2rem;
+
+}
+
+
+
+nav ul li a {
+  text-decoration: none;
+  color: rgba(236, 236, 236, 0.59);
+    font-size: 16px;
+    margin-right: 10px;
+
+}
+
+nav ul li span {
+  border-radius: 50%;
+  background-color: #444444;
+  margin: 20px;
+  font-size: 16px;
+}
+nav ul li a:hover,
+nav ul li a:focus {
+  color: #ffffff;
+}
+.big-container i:hover,
+.big-container i:focus{
+  color: #ffffff;
+}
+
+.big-container {
+  display: flex;
+  justify-content:space-around;
+  font-size: 16px;
+}
+.big-container div i {
+  background-color: color-mix(in srgb, #ffffff, transparent 90%);
+  border-radius: 50%;
+  padding: 10px;
+  position: relative;
+  top: 20px;
+  font-size: 16px;
 }
