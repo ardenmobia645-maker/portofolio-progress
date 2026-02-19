@@ -4,12 +4,10 @@ body {
 }
 
 header {
-
   padding: 15px;
   height: 95%;
   width: 300px;
   position: fixed;
-
 }
 nav {
   margin: 20px;
@@ -41,17 +39,13 @@ nav ul li {
 }
 nav ul li i {
   line-height: 2rem;
-
 }
-
-
 
 nav ul li a {
   text-decoration: none;
   color: rgba(236, 236, 236, 0.59);
-    font-size: 16px;
-    margin-right: 10px;
-
+  font-size: 16px;
+  margin-right: 10px;
 }
 
 nav ul li span {
@@ -65,13 +59,13 @@ nav ul li a:focus {
   color: #ffffff;
 }
 .big-container i:hover,
-.big-container i:focus{
+.big-container i:focus {
   color: #ffffff;
 }
 
 .big-container {
   display: flex;
-  justify-content:space-around;
+  justify-content: space-around;
   font-size: 16px;
 }
 .big-container div i {
@@ -81,4 +75,145 @@ nav ul li a:focus {
   position: relative;
   top: 20px;
   font-size: 16px;
+}
+main {
+  margin-left: 300px;
+ 
+}
+.hero-section {
+  height: 100vh;
+  
+  
+}
+.hero{
+display: flex;
+ position:fixed;
+
+}
+
+ .hero-section .hero-text{
+  margin-left:  24px;
+} 
+
+.hero-text {
+  color: #ffffff;
+  font-size: 24px;
+  font-family: "Ubuntu",sans-serif;
+  margin: 80px 0px ;
+  margin-bottom: 40px;
+  line-height: 1.6;
+  width: 100%;
+  height: 80vh;
+}
+.hero-text p {
+  font-size: 16px;
+  font-family: "Roboto",sans-serif;
+  margin: 0px 0px 40px;
+}
+.hero-section .hero-text h1 {
+  color: #ffffff;
+  margin: 0px 0px 15px;
+  font-size: 42px;
+  font-family: "Ubuntu",sans-serif;
+}
+.hero-section .hero-text h2 {
+  color: #ffffff;
+  margin: 0px 0px 10px;
+  font-family: "Ubuntu",sans-serif;
+  font-size: 24px;
+}
+.hero-section .hero-text p span {
+  color: #ececec;
+  font-weight: 600;
+  border-bottom: 2px solid #ffffff;
+
+
+}
+.hero-section .hero-text span {
+  color: #ececec;
+  padding: 0px 0px px;
+  font-size: 18px;
+  font-family: "Roboto,system-ui,-apple-system"sans-serif;
+}
+.hero-section .hero-text h1 span {
+  color: #ececec;
+  font-size: 42px;
+  font-family: "Ubuntu",sans-serif;
+  text-decoration: underline;
+}
+.hero-img {
+  justify-content: space-evenly;
+  width: 95%;
+}
+.hero-img img {
+
+  margin: 50px 0;
+  width: 100%;
+  height: 80vh;
+ 
+}
+
+.hero-section img {
+  width: 90%;
+  height: 70vh;
+  margin: 95px;
+  margin-left: 30px;
+  border-radius: 30px;
+}
+ .section-button .btn-wor {
+  border-radius: 50px;
+  font-weight: 600;
+  text-align: center;
+  align-content: center;
+  width: 35%;
+  height: 50%;
+  padding: 12px 25px;
+  font-size: 14px;
+  
+
+ }
+  .section-button .btn-get {
+  border-radius: 50px;
+  font-weight: 600;
+  text-align: center;
+  align-content: center;
+  width: 35%;
+  height: 50%;
+  padding: 12px 25px;
+  font-size: 14px;
+font-family: "Ubuntu",sans-serif;
+background-color: #444444;
+color: #ffffff;
+
+ }
+ .section-button .btn-get:hover{
+  background-color: #ececec;
+  color: #1b1b1b;
+  
+ }
+ .bi-incon ul {
+  display: flex;
+  list-style: none;
+   gap:30px;
+   font-size: 16px;
+   margin: 20px 0 0 0 0;
+   
+
+   
+ }
+.bi-incon i{
+  width: 50px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 20px;
+  background-color: #444444;
+  padding: 12px;
+  top: 20px;
+  
+} 
+  .bi-incon i:hover{
+  background-color: #ececec;
+  color:#1b1b1b;
 }
