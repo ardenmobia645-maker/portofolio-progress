@@ -48,12 +48,6 @@ nav ul li a {
   margin-right: 10px;
 }
 
-nav ul li span {
-  border-radius: 50%;
-  background-color: #444444;
-  margin: 20px;
-  font-size: 16px;
-}
 nav ul li a:hover,
 nav ul li a:focus {
   color: #ffffff;
@@ -79,29 +73,40 @@ nav ul li a:focus {
 main {
   margin-left: 300px;
   height: 200vh;
- 
 }
 .hero-section {
   height: 100vh;
-  
-  
 }
-.hero{
-display: flex;
- position:fixed;
- 
-
+.hero {
+  display: flex;
+  position: fixed;
 }
 
- .hero-section .hero-text{
-  margin-left:  24px;
-} 
+.hero-section .hero-text {
+  margin-left: 24px;
+}
+.hero-text{
+  max-width: 800px;
+  position: relative;
+}
+.decoration{
+  position: absolute;
+  background-color:color-mix(in srgb, #ffffff, transparent 90%);
+  top: 300px;
+  left: 40px;
+  width: 20%;
+  height: 30%;
+  border-radius: 50%;
+  z-index: -1;
+  opacity: 0.6;
+
+}
 
 .hero-text {
   color: #ffffff;
-  font-size: 24px;
-  font-family: "Ubuntu",sans-serif;
-  margin: 80px 0px ;
+  font-size: 20px;
+  font-family: "Ubuntu", sans-serif;
+  margin: 80px;
   margin-bottom: 40px;
   line-height: 1.6;
   width: 100%;
@@ -109,89 +114,79 @@ display: flex;
 }
 .hero-text p {
   font-size: 16px;
-  font-family: "Roboto",sans-serif;
+  font-family: "Roboto", sans-serif;
   margin: 0px 0px 40px;
 }
 .hero-section .hero-text h1 {
   color: #ffffff;
   margin: 0px 0px 15px;
   font-size: 42px;
-  font-family: "Ubuntu",sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 .hero-section .hero-text h2 {
   color: #ffffff;
   margin: 0px 0px 10px;
-  font-family: "Ubuntu",sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-size: 24px;
 }
 .hero-section .hero-text p span {
   color: #ececec;
   font-weight: 600;
   border-bottom: 2px solid #ffffff;
-
-
 }
 .hero-section .hero-text span {
   color: #ececec;
-  padding: 0px 0px px;
+  padding: 10px 0px ;
   font-size: 18px;
-  font-family: "Roboto,system-ui,-apple-system"sans-serif;
+  font-family: "Roboto,system-ui,-apple-system" sans-serif;
 }
 .hero-section .hero-text h1 span {
   color: #ececec;
   font-size: 42px;
-  font-family: "Ubuntu",sans-serif;
+  font-family: "Ubuntu", sans-serif;
   text-decoration: underline;
 }
 .hero-img {
   justify-content: space-evenly;
-  width: 95%;
+  width: 90%;
 }
 .hero-img img {
-
-  margin: 50px 0;
+  position: absolute;
   width: 100%;
   height: 90vh;
- 
+
 }
 
 .hero-section img {
   position: absolute;
+  top: 0;
+  left:460px ;
   width: 40%;
-  height: 78%;
-  margin: 95px;
+  height: 68%;
+  margin: 90px;
   margin-left: 30px;
   border-radius: 30px;
-
 }
-.first-visual{
+
+.hero-visual {
   background-color: color-mix(in srgb, #ececec, transparent 90%);
-width: 50%;
-height: 50%;
-border-radius: 90%;
-
+  position: absolute;
+  top: 120px;
+  left: 57.5%;
+  width: 40%;
+  height: 68%;
+  border-radius: 30px;
 }
-
-.hero-visual{
-  background-color: color-mix(in srgb, #ececec, transparent 90%);
-position: absolute;
-top: 90px;
-left: 67%;
-width: 30%;
-height: 82%;
-border-radius: 30px;
-}
-.hero-rode{
+.hero-rode {
   position: absolute;
   background-color: color-mix(in srgb, #ececec, transparent 90%);
- width: 30%;
-height: 65%;
-border-radius: 85%;
-margin-left: 30px;
-margin-top: 20px;
-
+  width: 30%;
+  height: 65%;
+  border-radius: 85%;
+  margin-left: 30px;
+  margin-top: 20px;
 }
- .section-button .btn-wor {
+.section-button .btn-wor {
   border-radius: 50px;
   font-weight: 600;
   text-align: center;
@@ -200,10 +195,8 @@ margin-top: 20px;
   height: 50%;
   padding: 12px 25px;
   font-size: 12px;
-  
-
- }
-  .section-button .btn-get {
+}
+.section-button .btn-get {
   border-radius: 50px;
   font-weight: 600;
   text-align: center;
@@ -212,28 +205,23 @@ margin-top: 20px;
   height: 50%;
   padding: 12px 25px;
   font-size: 12px;
-font-family: "Ubuntu",sans-serif;
-background-color:  #1b1b1b;
-color: #ffffff;
-border: 2px solid;
-
- }
- .section-button .btn-get:hover{
+  font-family: "Ubuntu", sans-serif;
+  background-color: #1b1b1b;
+  color: #ffffff;
+  border: 2px solid;
+}
+.section-button .btn-get:hover {
   background-color: #ececec;
   color: #1b1b1b;
-  
- }
- .bi-incon ul {
+}
+.bi-incon ul {
   display: flex;
   list-style: none;
-   gap:30px;
-   font-size: 16px;
-   margin: 20px 0 0 0 0;
-   
-
-   
- }
-.bi-incon i{
+  gap: 30px;
+  font-size: 16px;
+  margin: 20px 0 0 0 0;
+}
+.bi-incon i {
   width: 50px;
   height: 50px;
   align-items: center;
@@ -243,10 +231,30 @@ border: 2px solid;
   background-color: #444444;
   padding: 12px;
   top: 20px;
-  
-} 
-  .bi-incon i:hover{
-  background-color: #ececec;
-  color:#1b1b1b;
 }
+.bi-incon i:hover {
+  background-color: #ececec;
+  color: #1b1b1b;
+}
+.button-v{
+  display: flex;
+    align-content: center;
+  
+}
+.bi-v{
+  left: 240px;
+  position: absolute;
+  background-color: #444444;
+  height: 5%;
+  width: 10%;
+  border-radius: 50%;
+}
+.button-v :hover{
+  background-color: #ececec;
+   color: #1b1b1b;
+}
+.bi-chevron-down{
+  font-size: 12px;
+  margin: 8px;
 
+}
