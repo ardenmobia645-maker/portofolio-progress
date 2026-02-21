@@ -4,12 +4,10 @@ body {
 }
 
 header {
-
   padding: 15px;
   height: 95%;
   width: 300px;
   position: fixed;
-
 }
 nav {
   margin: 20px;
@@ -29,49 +27,46 @@ header nav {
 }
 nav ul li {
   color: rgba(236, 236, 236, 0.59);
+   line-height: 2rem;
 }
 
 nav ul li {
   font-size: 16px;
   color: rgba(236, 236, 236, 0.59);
   font-family: "Nunito" sans serif;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.8rem;
   list-style: none;
   padding: 0;
 }
 nav ul li i {
   line-height: 2rem;
-
+  top: 5px;
+  margin-left: 0;
 }
-
-
 
 nav ul li a {
   text-decoration: none;
   color: rgba(236, 236, 236, 0.59);
-    font-size: 16px;
-    margin-right: 10px;
+  font-size: 20px;
+  margin-right: 10px;
+  
+  
 
+  
 }
 
-nav ul li span {
-  border-radius: 50%;
-  background-color: #444444;
-  margin: 20px;
-  font-size: 16px;
-}
 nav ul li a:hover,
 nav ul li a:focus {
   color: #ffffff;
 }
 .big-container i:hover,
-.big-container i:focus{
+.big-container i:focus {
   color: #ffffff;
 }
 
 .big-container {
   display: flex;
-  justify-content:space-around;
+  justify-content: space-around;
   font-size: 16px;
 }
 .big-container div i {
@@ -81,4 +76,190 @@ nav ul li a:focus {
   position: relative;
   top: 20px;
   font-size: 16px;
+}
+main {
+  margin-left: 300px;
+  height: 200vh;
+}
+.hero-section {
+  height: 100vh;
+}
+.hero {
+  display: flex;
+  position: fixed;
+}
+
+.hero-section .hero-text {
+  margin-left: 24px;
+}
+.hero-text {
+  max-width: 800px;
+  position: relative;
+}
+.decoration {
+  position: absolute;
+  background-color: color-mix(in srgb, #ffffff, transparent 90%);
+  top: 270px;
+  left: 20px;
+  width: 20%;
+  height: 30%;
+  border-radius: 50%;
+  z-index: -1;
+  opacity: 0.6;
+}
+
+.hero-text {
+  color: #ffffff;
+  font-size: 42px;
+  font-family: "Ubuntu", sans-serif;
+  margin: 80px;
+  margin-bottom: 40px;
+  line-height: 1.6;
+  width: 100%;
+  height: 80vh;
+}
+.hero-text p {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  margin: 0px 0px 40px;
+}
+.hero-section .hero-text h1 {
+  color: #ffffff;
+  margin: 0px 0px 15px;
+  font-size: 42px;
+  font-family: "Ubuntu", sans-serif;
+}
+.hero-section .hero-text h2 {
+  color: #ffffff;
+  margin: 0px 0px 10px;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 24px;
+}
+.hero-section .hero-text p span {
+  color: #ececec;
+  font-weight: 600;
+  border-bottom: 2px solid #ffffff;
+}
+.hero-section .hero-text span {
+  color: #ffffffcc;
+  padding: 10px 0px;
+  font-size: 18px;
+  font-family: "Roboto,system-ui,-apple-system" sans-serif;
+}
+.hero-section .hero-text h1 span {
+  color: #ececec;
+  font-size: 42px;
+  font-family: "Ubuntu", sans-serif;
+  text-decoration: underline;
+}
+.hero-img {
+  justify-content: space-evenly;
+  width: 90%;
+}
+.hero-img img {
+  position: absolute;
+  width: 100%;
+  height: 90vh;
+}
+
+.hero-section img {
+  position: absolute;
+  top: 0;
+  left: 460px;
+  width: 38%;
+  height: 60%;
+  margin: 90px;
+  margin-left: 35px;
+  border-radius: 30px;
+}
+
+.hero-visual {
+  background-color: color-mix(in srgb, #ececec, transparent 90%);
+  position: absolute;
+  top: 98px;
+  left: 55.5%;
+  width: 40%;
+  height: 62%;
+  border-radius: 30px;
+}
+.hero-rode {
+  position: absolute;
+  background-color: color-mix(in srgb, #ececec, transparent 90%);
+  width: 30%;
+  height: 65%;
+  border-radius: 85%;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.section-button .btn-wor {
+  border-radius: 50px;
+  font-weight: 600;
+  text-align: center;
+  width: 40%;
+  height: 50%;
+  padding: 12px 25px;
+  font-size: 12px;
+  font-family: "Ubuntu", sans-serif;
+}
+.section-button .btn-get {
+  border-radius: 50px;
+  font-weight: 600;
+  width: 40%;
+  height: 50%;
+  padding: 12px 25px;
+  font-size: 12px;
+  font-family: "Ubuntu", sans-serif;
+  background-color: #1b1b1b;
+  color: #ffffff;
+  border: 2px solid;
+}
+.section-button .btn-get:hover {
+  background-color: #ececec;
+  color: #1b1b1b;
+}
+.bi-incon ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  font-size: 16px;
+}
+.bi-incon a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 20px;
+  background-color:rgba(255, 255, 255, 0.2);transition: all 0.3s ease;
+  padding: 5px;
+  top: 60%;
+  color: #ececec;
+  margin-top: 40px;
+  text-align: center;
+}
+.bi-incon a:hover {
+  background-color: #ececec;
+  color: #1b1b1b;
+}
+.button-v {
+  display: flex;
+  align-content: center;
+}
+.bi-v {
+  left: 240px;
+  position: absolute;
+  background-color: #444444;
+  height: 5%;
+  width: 10%;
+  border-radius: 50%;
+  padding: 7px;
+}
+.button-v :hover {
+  background-color: #ececec;
+  color: #1b1b1b;
+}
+.bi-chevron-down {
+  font-size: 12px;
+  margin: 8px;
+  align-content: center;
+  
 }
