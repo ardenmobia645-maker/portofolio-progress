@@ -27,25 +27,32 @@ header nav {
 }
 nav ul li {
   color: rgba(236, 236, 236, 0.59);
+   line-height: 2rem;
 }
 
 nav ul li {
   font-size: 16px;
   color: rgba(236, 236, 236, 0.59);
   font-family: "Nunito" sans serif;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.8rem;
   list-style: none;
   padding: 0;
 }
 nav ul li i {
   line-height: 2rem;
+  top: 5px;
+  margin-left: 0;
 }
 
 nav ul li a {
   text-decoration: none;
   color: rgba(236, 236, 236, 0.59);
-  font-size: 16px;
+  font-size: 20px;
   margin-right: 10px;
+  
+  
+
+  
 }
 
 nav ul li a:hover,
@@ -134,7 +141,7 @@ main {
   border-bottom: 2px solid #ffffff;
 }
 .hero-section .hero-text span {
-  color: #ececec;
+  color: #ffffffcc;
   padding: 10px 0px;
   font-size: 18px;
   font-family: "Roboto,system-ui,-apple-system" sans-serif;
@@ -222,7 +229,7 @@ main {
   height: 40px;
   border-radius: 50%;
   font-size: 20px;
-  background-color: #444444;
+  background-color:rgba(255, 255, 255, 0.2);transition: all 0.3s ease;
   padding: 5px;
   top: 60%;
   color: #ececec;
@@ -244,6 +251,7 @@ main {
   height: 5%;
   width: 10%;
   border-radius: 50%;
+  padding: 7px;
 }
 .button-v :hover {
   background-color: #ececec;
@@ -252,4 +260,6 @@ main {
 .bi-chevron-down {
   font-size: 12px;
   margin: 8px;
+  align-content: center;
+  
 }
