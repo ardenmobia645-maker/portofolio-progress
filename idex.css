@@ -27,7 +27,7 @@ header nav {
 }
 nav ul li {
   color: rgba(236, 236, 236, 0.59);
-   line-height: 2rem;
+  line-height: 2rem;
 }
 
 nav ul li {
@@ -49,10 +49,6 @@ nav ul li a {
   color: rgba(236, 236, 236, 0.59);
   font-size: 20px;
   margin-right: 10px;
-  
-  
-
-  
 }
 
 nav ul li a:hover,
@@ -79,14 +75,14 @@ nav ul li a:focus {
 }
 main {
   margin-left: 300px;
-  height: 200vh;
+  height: 300vh;
 }
 .hero-section {
   height: 100vh;
 }
 .hero {
   display: flex;
-  position: fixed;
+  position: absolute;
 }
 
 .hero-section .hero-text {
@@ -194,7 +190,6 @@ main {
 .section-button .btn-wor {
   border-radius: 50px;
   font-weight: 600;
-  text-align: center;
   width: 40%;
   height: 50%;
   padding: 12px 25px;
@@ -213,9 +208,9 @@ main {
   color: #ffffff;
   border: 2px solid;
 }
-.section-button .btn-get:hover {
+.about-img .btn-wor:hover {
   background-color: #ececec;
-  color: #1b1b1b;
+  color: #232323;
 }
 .bi-incon ul {
   display: flex;
@@ -229,7 +224,8 @@ main {
   height: 40px;
   border-radius: 50%;
   font-size: 20px;
-  background-color:rgba(255, 255, 255, 0.2);transition: all 0.3s ease;
+  background-color: rgba(255, 255, 255, 0.2);
+  transition: all 0.3s ease;
   padding: 5px;
   top: 60%;
   color: #ececec;
@@ -247,11 +243,11 @@ main {
 .bi-v {
   left: 240px;
   position: absolute;
-  background-color: #444444;
+  background-color: color-mix(in srgb, #ffffff, transparent 40%);
   height: 5%;
   width: 10%;
   border-radius: 50%;
-  padding: 7px;
+  padding: 5px;
 }
 .button-v :hover {
   background-color: #ececec;
@@ -261,5 +257,322 @@ main {
   font-size: 12px;
   margin: 8px;
   align-content: center;
+}  
+
+.About {
+  display: flex;
+  justify-content: space-around;
+}
+.about-img {
+  width: 35%;
+  height: 90%;
+  border-radius: 2.6rem;
+  background-color: #232323;
+  /* margin: 20px; */
+  padding: 10px;
+  border-top: #ffffff 3px solid;
+  text-align: center;
+  /* margin-right: 20px; */
+}
+.about-text {
+  width: 50%;
+  /* height: 170vh; */
+}
+
+.about-text .btn-wor {
+    padding: 0.5rem 1.5rem;
+    border-radius: 2rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin-bottom: 1.5rem;
+
+
+  font-family: "Roboto", sans-serif;
+}
+.about-img img {
+  width: 40%;
+  border-radius: 50%;
+  margin: 20px;
+  margin-left: 20px;
+}
+.about-img h3 {
+  color: #ececec;
+  font-size: 25px;
+  font-family: "Ubuntu", sans-serif;
+  margin: 0px 0px 0px 8px;
+  text-align: center;
+}
+.about-img p {
+  color: #ececec;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+.about-img .btn-wor {
+  display: block;
+  line-height: 2.6;
+  font-weight: 600;
+  width: 96%;
+  height: 45px;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  border-radius: 0.75rem;
+  margin-bottom: 1.8rem;
+  margin-top: 10px;
+  background-color: #232323;
+  color: #ececec;
+}
+.about-img .btn-wor span {
+  margin-right: 30px;
+}
+
+.about-text h2 {
+  color: #ffffff;
+
+  font-family: "Ubuntu", sans-serif;
+  font-size: 34px;
+  line-height: 1.6;
+}
+.about-text p {
+  color: #ffffff;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 17.6px;
+  line-height: 1.6;
+}
+.about-text .ps {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 17.6px;
+  margin-top: 50px;
+  line-height: 1.7rem;
+  margin-top: 30px;
+}
+.sous-section {
+  display: flex;
+  gap: 1.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background: #232323;
+  border-radius: 30px;
+  margin-top: 10px;
+  margin-bottom: 90px;
+}
+.sous-section h2 {
+  color: #ffffff;
+  font-size: 32px;
+  font-family: "Ubuntu", sans-serif;
+}
+.sous-section p {
+  font-size: 14px;
+  font-family: "Ubuntu", sans-serif;
+  padding: 3px;
+}
+.bi-check-circle {
+  color: #ececec;
+  font-size: 20px;
+  align-items: center;
+}
+
+.dernier-ecart {
+  display: flex;
+  text-align: center;
+  margin-bottom: 2rem;
+  padding: 1rem;
+   gap: 10px;
+}
+.ecart {
+  width: 55.1%;
+  height: 128px;
+   margin-bottom: 4rem;
+}
+.ecart p {
+  font-size: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+   line-height: 2.7rem;
+  color: color-mix(in srgb, #ffffff, transparent 50%);
+}
+.ecart span {
+  display: block;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+}
+.button-get {
+  display: flex;
+  gap: 10px;
+  margin-left: 10px;
+}
+
+.button-get span{
+  margin-right: 15px;
+} 
+
+.button-get :hover{
+  background-color: #232323;
+  color: #ececec;
+} 
+
+.get-ecart {
+  width: 40%;
+  height: 30px;
+  padding: 28px;
+  border-radius: 0.75rem;
+  background-color: #232323;
+  color: #ececec;
+  font-family: "Roboto", sans-serif;
+}
+.get-ecart :hover{
+   background: #232323;
+  color: #ececec;
+}
+
+.get-sous {
+  width: 50%;
+  height: 30px;
+  padding: 28px;
+  border-radius: 0.75rem;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 4rem;
+}
+
+.button-get.get-sous:hover {
+  background-color: #ececec;
+  color: #232323;
+}
+.get-sous span i {
+  justify-content: space-between;
+}
+.button-get span {
+  gap: 20px;
+}  
+
+
+
+.bi-chat-dots:hover{
+  background-color:#ececec;
+  color: #2c2c2c;
+
+}
+.about-style {
+  display: flex;
+  background: #232323;
+  width: 100%;
+  height: 250px;
+  gap: 20px;
+}
+
+.style {
+  width: 55.5%;
+  background: #232323;
+  align-content: center;
+   font-family: "Ubuntu", sans-serif;
+   margin-bottom: 7rem;
+}
+
+.hard {
+  background: #2c2c2c;
+  border-radius: 15px;
+  text-align: center;
+  width: 200px;
+  height: 250px;
+  color: #ffffff;
+  align-items: center;
+  position: relative;
+   margin-bottom: 10rem;
   
+ 
+}
+.hard p {
+  font-size: 18px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+}
+head h1 {
+  font-size: 35px;
+   font-family: "Ubuntu", sans-serif;
+}
+.Emoji {
+  font-size: 20px;
+}
+
+.selection {
+  background-color: color-mix(in srgb, #00c875, transparent 85%);
+  color: #00c875;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: block;
+  font-size: 48px;
+  font-weight: 700;
+  position: relative;
+  margin-left: 60px;
+  font-family: "Ubuntu", sans-serif;
+  align-content: center;
+  top: 0 auto 10px;
+  
+ 
+
+}
+.people {
+  background-color: color-mix(in srgb, #e83e8c, transparent 85%);
+  color: #e83e8c;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: block;
+  font-size: 48px;
+  font-weight: 700;
+  position: relative;
+  margin-left: 60px;
+  align-content: center;
+
+  font-family: "Ubuntu", sans-serif;
+}
+.journal {
+  background-color: color-mix(in srgb, #ff7e00, transparent 85%);
+  color: #ff7e00;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: block;
+  font-size: 48px;
+  font-weight: 700;
+  font-family: "Ubuntu", sans-serif;
+  position: relative;
+  margin-left: 60px;
+  align-content: center;
+}
+.smile {
+  background-color: #444444;
+  color: #ececec;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  font-size: 48px;
+  font-weight: 700;
+  position: relative;
+  margin-left: 60px;
+  align-content: center;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.bi-check-circle{
+ position: absolute;
+ margin-bottom: 100px;
+ margin-left: 100px;
+  width: 20px;
+  color: #ececec;
+  border-radius: 50%;
+  border: #ececec 2px solid;
+  padding: 2px;
+  
+
+}
+.home{
+  position: absolute;
 }
