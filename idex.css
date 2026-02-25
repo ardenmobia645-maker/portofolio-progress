@@ -288,7 +288,7 @@ main {
     margin-bottom: 1.5rem;
 
 
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto",sans-serif;
 }
 .about-img img {
   width: 40%;
@@ -299,14 +299,14 @@ main {
 .about-img h3 {
   color: #ececec;
   font-size: 25px;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Ubuntu",sans-serif;
   margin: 0px 0px 0px 8px;
   text-align: center;
 }
 .about-img p {
   color: #ececec;
   font-size: 15px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto",sans-serif;
   text-align: center;
 }
 .about-img .btn-wor {
@@ -316,7 +316,7 @@ main {
   width: 96%;
   height: 45px;
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto",sans-serif;
   border-radius: 0.75rem;
   margin-bottom: 1.8rem;
   margin-top: 10px;
@@ -330,20 +330,20 @@ main {
 .about-text h2 {
   color: #ffffff;
 
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Ubuntu",sans-serif;
   font-size: 34px;
   line-height: 1.6;
 }
 .about-text p {
   color: #ffffff;
   margin: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto",sans-serif;
   font-size: 17.6px;
   line-height: 1.6;
 }
 .about-text .ps {
   color: #ffffff;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto",sans-serif;
   font-size: 17.6px;
   margin-top: 50px;
   line-height: 1.7rem;
@@ -363,11 +363,11 @@ main {
 .sous-section h2 {
   color: #ffffff;
   font-size: 32px;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Ubuntu",sans-serif;
 }
 .sous-section p {
   font-size: 14px;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Ubuntu",sans-serif;
   padding: 3px;
 }
 .bi-check-circle {
@@ -389,8 +389,8 @@ main {
    margin-bottom: 4rem;
 }
 .ecart p {
-  font-size: 10px;
-  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-family: "Roboto",sans-serif;
   font-weight: 600;
    line-height: 2.7rem;
   color: color-mix(in srgb, #ffffff, transparent 50%);
@@ -400,7 +400,7 @@ main {
   font-weight: 600;
   color: #ffffff;
   font-size: 1rem;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto",sans-serif;
 }
 .button-get {
   display: flex;
@@ -424,7 +424,8 @@ main {
   border-radius: 0.75rem;
   background-color: #232323;
   color: #ececec;
-  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-family: "Roboto",sans-serif;
 }
 .get-ecart :hover{
    background: #232323;
@@ -436,13 +437,19 @@ main {
   height: 30px;
   padding: 28px;
   border-radius: 0.75rem;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto",sans-serif;
   margin-bottom: 4rem;
+  font-size: 16px;
 }
 
 .button-get.get-sous:hover {
   background-color: #ececec;
   color: #232323;
+}
+
+.get-ecart:hover {
+
+  border: #ececec 2px solid;
 }
 .get-sous span i {
   justify-content: space-between;
@@ -462,16 +469,19 @@ main {
   display: flex;
   background: #232323;
   width: 100%;
-  height: 250px;
-  gap: 20px;
+  height: 350px;
+  text-align: center;
+ 
 }
 
 .style {
   width: 55.5%;
+  text-align: center;
   background: #232323;
-  align-content: center;
    font-family: "Ubuntu", sans-serif;
-   margin-bottom: 7rem;
+   align-items: center;
+   margin-left: 30px;
+
 }
 
 .hard {
@@ -483,7 +493,8 @@ main {
   color: #ffffff;
   align-items: center;
   position: relative;
-   margin-bottom: 10rem;
+  margin-top: 60px;
+ 
   
  
 }
@@ -498,6 +509,7 @@ head h1 {
 }
 .Emoji {
   font-size: 20px;
+   margin: 10px 0 0 0;
 }
 
 .selection {
@@ -514,6 +526,7 @@ head h1 {
   font-family: "Ubuntu", sans-serif;
   align-content: center;
   top: 0 auto 10px;
+   margin-top: 50px;
   
  
 
@@ -530,6 +543,7 @@ head h1 {
   position: relative;
   margin-left: 60px;
   align-content: center;
+   margin-top: 50px;
 
   font-family: "Ubuntu", sans-serif;
 }
@@ -546,6 +560,7 @@ head h1 {
   position: relative;
   margin-left: 60px;
   align-content: center;
+   margin-top: 50px;
 }
 .smile {
   background-color: #444444;
@@ -559,17 +574,22 @@ head h1 {
   margin-left: 60px;
   align-content: center;
   font-family: "Ubuntu", sans-serif;
+   margin-top: 50px;
+   
+   
 }
 
 .bi-check-circle{
- position: absolute;
- margin-bottom: 90px;
- margin-left: 100px;
-  width: 20px;
-  color: #ececec;
-  border-radius: 50%;
-  border: #ececec 2px solid;
-  padding: 2px;
-  
+ position:relative;
+bottom: 0;
+width: 20px;
+left: 40px;
+bottom: 60px;
+right: 20px;
+border-radius: 50%;
+padding: 2px;
+border:#1b1b1b 2px solid;
+background: #ececec;
+color: #2c2c2c
 
 }
