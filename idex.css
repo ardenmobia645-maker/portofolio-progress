@@ -563,7 +563,7 @@ head h1 {
 
 .bi-check-circle{
  position: absolute;
- margin-bottom: 100px;
+ margin-bottom: 90px;
  margin-left: 100px;
   width: 20px;
   color: #ececec;
@@ -572,7 +572,4 @@ head h1 {
   padding: 2px;
   
 
-}
-.home{
-  position: absolute;
 }
