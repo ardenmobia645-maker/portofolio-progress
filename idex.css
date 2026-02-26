@@ -620,7 +620,7 @@ color: #2c2c2c
  }
  .skill-item{
   margin: 0 15px 0 15px ;
-  
+
  }
  
  
@@ -631,6 +631,12 @@ color: #2c2c2c
     font-family: "Ubuntu",sans-serif; 
 
  }
+ .skills-category span{
+
+  text-decoration: underline;
+  margin: 10px;
+ }
+
  .ligne{
   width: 20% ;
   height: 3px;
@@ -685,7 +691,7 @@ color: #2c2c2c
  }
 
  .experience{
-    color:#ececec;
+    color:#ffffff;
   font-size: 14px;
   font-family: "Ubuntu",sans-serif;
  }
@@ -697,8 +703,8 @@ color: #2c2c2c
  }
  .progress-bar72{
      height: 10px;
- width: 72%;
- background-color:#ececec;
+      width: 70%;
+      background-color:#ececec;
   border-radius: 20px;
  }
  .progress-bar65{
