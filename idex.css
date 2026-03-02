@@ -770,7 +770,6 @@ background-color: #ececec;
  .resume-text{
   width: 80%;
   height: 190vh;
-  background-color: #232323;
   align-items: center;
 
 
@@ -986,9 +985,6 @@ font-size: 30px;
   border-radius: 60%;
   padding: 6px;
   margin-left: 5px;
-
-  
-
   
 }
 
