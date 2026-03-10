@@ -601,12 +601,14 @@ color: #2c2c2c
   font-family: "Ubuntu",sans-serif;
   color: #ececec;
   text-decoration: underline;
+  text-align: center;
  }
 
  .skills-section h4 {
    font-size: 14px;
   font-family: "Ubuntu",sans-serif;
   color: #ececec;
+  text-align: center;
 
  }
  .skills-category {
@@ -1241,26 +1243,26 @@ background-color: #ececec;
 
  }
  .test-ecart{
-    width: 25%;
+    width: 23%;
   height: 250px;
   background-color:#2c2c2c;
-  border-radius: 10px;
+  border-radius: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-shrink: 0;
-  color: #ececec;
+  color: #ffffffcc;
   padding: 25px;
   margin: 10px;
   border: 1.5px solid #444444;
  }
  .bar-ecart{
   position: absolute;
-  width: 20%;
+  width: 18%;
   padding: 1px;
   background-color:#444444;
   border: 2px solid #2c2c2c;
-  margin-top: 100px;
+  margin-top: 140px;
 
  }
  .bi-quote{
@@ -1269,7 +1271,7 @@ background-color: #ececec;
   padding: 10px;
   border-radius: 20px;
   background-color:#444444;
-  margin-left: 25px;
+  margin-left: 30px;
   margin-bottom: 10px;
  }
  .img-ecart{
@@ -1283,7 +1285,8 @@ background-color: #ececec;
   height: 100%;
   margin-top: 300px;
   right: 200px;
-    border-radius: 30px;
+  border-radius: 30px;
+  margin-left: 20px;
 
  }
  .img-ecart h5{
@@ -1292,15 +1295,19 @@ background-color: #ececec;
    right: 150px;
    font-family: "Ubuntu",sans-serif;
    font-size: 16px;
+   margin-left: 30px;
 
  }
  .img-ecart p{
   position: relative;
   bottom: 100px;
    right: 150px;
-   font-family: "Ubuntu",sans-serif;
-   font-size: 10px;
-   color: color-mix(in srgb, var(--heading-color), transparent 40%);
+   font-family: "Roboto",sans-serif;
+   color: #ffffff99;
+   margin-left: 30px;
+   font-size: 12px;
+   line-height: 1.2;
+
  }
 .ecart-large{
     width: 25%;
@@ -1315,16 +1322,42 @@ background-color: #ececec;
   margin: 10px;
 
 }
-.quote{
-  position: absolute;
-margin-bottom: 20px;
+.test-cart{
+   position: relative;
+  width: 25%;
+  height: 300px;
+  background-color:#2c2c2c;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  color: #ffffffcc;
+  padding: 20px;
+  margin: 10px;
+  border: 2px solid #444444;
+  line-height: 1.2;
+  margin-top: 25px;
+  font-family: "Ubuntu",sans-serif;
+ 
+
 }
+.mode-ii{
+  position: relative;
+  margin-right: 10px;
+  bottom: 190px;
+
+}
+
+
+
+
 .modification{
   position: relative;
   width: 25%;
   height: 360px;
   background-color:#2c2c2c;
-  border-radius: 10px;
+  border-radius: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1333,7 +1366,7 @@ margin-bottom: 20px;
   padding: 20px;
   margin: 10px;
   border: 2px solid #444444;
-  margin-top: 10px;
+  margin-top: 60px;
 }
 .quote{
   position: absolute;
@@ -1341,40 +1374,48 @@ margin-bottom: 20px;
   padding: 10px;
   border-radius: 5px;
   background-color:#232323;
-  margin-left: 20px;
   margin-bottom: 10px;
-  margin-left: 50px;
+  margin-left: 90px;
 
 }
 .mode-icon i{
   position: absolute;
   bottom: 370px;
-  margin-right: 10px;
+  margin-right: 20px;
   
 
 }
 .modification p{
-  margin-bottom: 70px;
-  font-family: "Roboto",sans-serif;
-  font-size: 15px;
+  margin-bottom: 90px;
+  font-family: "Ubuntu",sans-serif;
+ font-size: 15px;
+ margin-left: 20px;
+ line-height: 1.2;
+
 }
 .modification h5{
   position: relative;
-  top: 10px;
+  top: 20px;
   font-family: "Roboto",sans-serif;
-  font-size: 10px;
+  font-size: 12px;
+  color: #ffffff99;
+  margin-left: 20px;
+  
+
 }
 .modification img{
 top:48px ;
+margin-left: 20px;
 }
  .modification .para{
-  font-family: "Roboto",sans-serif;
+  font-family: "Ubuntu",sans-serif;
   font-size: 15px;
   margin-top: 38px;
+  color: #ececec;
 
 }
 .eecart{
-   position: absolute;
+  position: absolute;
   width: 80%;
   padding: 1px;
   background-color:#444444;
@@ -1385,6 +1426,40 @@ top:48px ;
 .paragraph{
   font-size: 15px;
   font-family: "Roboto",sans-serif;
+   font-weight: 600;
+   margin-top: 10px;
+
+}
+ .modification.para{
+  color: #ffffff99;
+}
+.eeecart{
+    position: relative;
+  width: 25%;
+  height: 340px;
+  background-color:#2c2c2c;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  color: #ececec;
+  padding: 20px;
+  margin: 10px;
+  border: 2px solid #444444;
+}
+.mode-icone{
+   position: absolute;
+  bottom: 405px;
+  margin-right: 230px;
+}
+.bar-Eecart{
+  position: absolute;
+  width: 80%;
+  padding: 1px;
+  background-color:#444444;
+  border: 2px solid #2c2c2c;
+  margin-top: 138px;
 }
 
 
