@@ -1660,9 +1660,30 @@ background-color: #ececec;
 }
 footer{
   height: 20vh;
-  width: 20%;
-  border: 2px solid #ececec;
+  width: 98%;
+  border: 1px solid #2c2c2c;
+  text-align: center;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
 
+}
+footer p{
+color: #ffffff;
+font-family: "Roboto",sans-serif;
+font-size: 12px;
+
+}
+footer h5{
+  color: #ececec;
+  margin-bottom: 20px;
+  font-family: "Roboto",sans-serif;
+  font-size: 12px;
+}
+footer span{
+  color: #ececec;
+  font-family: "Roboto",sans-serif;
+  font-size: 15px;
 }
 
 
