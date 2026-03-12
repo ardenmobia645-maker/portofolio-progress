@@ -1462,31 +1462,30 @@ margin-left: 20px;
   margin-top: 138px;
 }
 .contact-section{
-  min-height: 50vh;
-  height: 98%;
+
+
 
 }
 .big-contact{
   display: flex;
   width: 98%;
-  height: 90%;
-  gap: 30px;
+  gap: 10px;
+
 }
 .contect-info{
   width: 40%;
-  height: 40%;
-  margin: 20px 20px 20px 20px;
+  margin: 20px;
   border-radius: 20px;
   background-color: #ececec;
   line-height: 1.5;
  
 }
 .contact-get{
-    width: 60%;
-  height: 40%;
-  margin: 20px 20px 20px 20px;
+ width: 60%;
+ min-height: 110vh;
+  margin: 20px;
   border-radius: 10px;
-  background-color:#232323 ;
+  background-color:#232323;
 
 }
 .contact-section h2{
@@ -1509,8 +1508,8 @@ height: 2px;
 background-color: #ececec;
 
  }
-    .conct{
-      gap: 10px;
+.conct{
+  gap: 10px;
   display: flex;
   align-items: center;
   justify-content:center ;
@@ -1543,7 +1542,8 @@ background-color: #ececec;
   
   
 }
-.bi-geo-alt{
+.mode-inconne{
+   color: #232323;
   text-align: center;
   position: relative;
   font-size: 30px;
@@ -1555,32 +1555,8 @@ background-color: #ececec;
   padding: 15px;
   background-color: color-mix(in srgb, #310606, transparent 85%);
 }
-.bi-telephone{
-   text-align: center;
-  position: relative;
-  font-size: 30px;
-  top: 10px;
-  margin: 10px;
-  border-radius: 30px;
-  margin-left: 30px;
-  height: 30px;
-  padding: 15px;
-  background-color: color-mix(in srgb, #310606, transparent 85%);
-}
-.bi-envelope{
-   text-align: center;
-  position: relative;
-  font-size: 30px;
-  top: 10px;
-  margin: 10px;
-  border-radius: 30px;
-  margin-left: 30px;
-  height: 30px;
-  padding: 15px;
-  background-color: color-mix(in srgb, #310606, transparent 85%);
-  
 
-}
+
 .element-style h2{
   color:#310606 ;
   font-family: "Ubuntu",sans-serif;
@@ -1646,7 +1622,7 @@ background-color: #ececec;
   margin: 40px;
   margin-top: 20px;
   width: 78%;
-  height: 20%;
+  height: 25%;
   padding: 0.875rem 1.25rem;
   background-color: #ffffff1a;
   border-radius: 0.5rem;
@@ -1668,6 +1644,7 @@ background-color: #ececec;
   font-family: "Ubuntu",sans-serif;
   margin-left: 150px;
   font-size: 16px;
+  bottom: 30px;
 
 }
 .dernier-button:hover{
@@ -1679,6 +1656,12 @@ background-color: #ececec;
   font-family: "Roboto",sans-serif;
   margin: 20px;
   font-style: 500;
+
+}
+footer{
+  height: 20vh;
+  width: 20%;
+  border: 2px solid #ececec;
 
 }
 
